@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react'
 import Button from './button'
-import Loading from '../../loading/page'
+import Loading from '../../loading/loading'
 
 const Form_Sign_Up = () => {
 

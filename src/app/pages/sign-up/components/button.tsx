@@ -1,7 +1,7 @@
 'use client'
 import { signIn } from 'next-auth/react'
 import React, { useState } from 'react'
-import Loading from '../../loading/page'
+import Loading from '../../loading/loading'
 
 const Button = () => {
 
