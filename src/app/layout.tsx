@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 //fonts
-import { poppins } from "./fonts/page";
+import { main } from "./fonts/fonts";
 
 export const metadata: Metadata = {
   title: "Social Net",
@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={poppins.className}>{children}</body>
+      <body className={main.className}>{children}</body>
     </html>
   );
 }
