@@ -5,7 +5,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 //fonts
-import { poppins } from "./fonts/page";
+import { Poppins } from "next/font/google";
+
+const poppins = Poppins({ subsets: ["latin"], weight: '400' });
 
 export const metadata: Metadata = {
   title: "Social Net",
