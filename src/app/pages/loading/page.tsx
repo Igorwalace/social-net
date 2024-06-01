@@ -1,10 +1,10 @@
 import React from 'react'
 
-interface LoadingProps {
+interface Props {
     loading: boolean
 }
 
-const Loading = ({ loading }: LoadingProps) => {
+const Loading = ({ loading }: Props) => {
     return (
         <>
             {
