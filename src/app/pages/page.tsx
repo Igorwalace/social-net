@@ -3,6 +3,7 @@ import React from 'react'
 
 //sessions
 import { auth } from '@/services/auth'
+import Button from './componentes/button'
 
 const Home = async () => {
 
@@ -10,7 +11,7 @@ const Home = async () => {
     if (!session?.user) return redirect('/pages/sign-up')
 
     return (
-        <div>Home</div>
+        <Button  />
     )
 }
 
