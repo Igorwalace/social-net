@@ -29,10 +29,11 @@ CREATE TABLE "sessions" (
 -- CreateTable
 CREATE TABLE "users" (
     "id" TEXT NOT NULL,
-    "name" TEXT,
-    "email" TEXT,
+    "name" TEXT NOT NULL,
+    "email" TEXT NOT NULL,
     "email_verified" TIMESTAMP(3),
     "image" TEXT,
+    "user_name" TEXT,
 
     CONSTRAINT "users_pkey" PRIMARY KEY ("id")
 );
